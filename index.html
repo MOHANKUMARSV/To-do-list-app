@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="todo">
+        <h1>To Do List App</h1>
+        <div class="input">
+          <input type="text" id="taskInput" placeholder="Tell Me !!" />
+          <button id="addTask">+</button>
+        </div>
+        <div id="listContent">
+          <ul id="taskList"></ul>
+          <img src="./Screenshot 2025-06-06 233152.png" width="200" alt="Empty" />
+        </div>
+        <p id="taskSummary">Completed 0 of 0 tasks</p>
+        <div id="successAnimation">🎉 All tasks completed! Great job!</div>
+
+        <!-- Win Sound -->
+        <audio id="winSound" src="./marimba-win-f-2-209688.mp3" preload="auto"></audio>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
